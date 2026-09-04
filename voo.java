@@ -6,7 +6,7 @@ public abstract class voo {
 	private String codigo;
 	private String destino;
 
-	public  voo(String origem, double distanceKM, double combstDisp, boolean documentacaoReg, String codigo, String destino) {
+	public voo(String origem, double distanceKM, double combstDisp, boolean documentacaoReg, String codigo, String destino) {
 		this.origem = origem;
 		this.distanceKm = distanceKM;
 		this.combstDisp = combstDisp;
@@ -63,19 +63,12 @@ public abstract class voo {
 		this.destino = destino;
 	}
 
-	public double custoVoo(){
-		return 0;
-	}
-	public void isDocReg(){
+	public abstract double custoVoo();
 
-	}
-	public boolean permDecolar(){
-		return false;
-	}
-	public String motivoPendencia(){
-		return "a";
-	}
-	public double calculaCombstNec(){
-		return 0;
-	}
+	public abstract boolean permDecolar();
+
+	public abstract String motivoPendencia();
+
+	public abstract double calculaCombstNec();
+
 }

@@ -4,7 +4,7 @@ public class Autorizacao {
 
 	}
 
-	public void getMotivoPendencia() {
+	public void motivoPendencia() {
 
 	}
 
