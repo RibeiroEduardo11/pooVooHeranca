@@ -63,31 +63,19 @@ public abstract class voo {
 		this.destino = destino;
 	}
 
-	public void cadastroVoo() {
+	public double custoVoo(){
+		return 0;
+	}
+	public void isDocReg(){
 
 	}
-
-	public void procuraVoo() {
-
+	public boolean permDecolar(){
+		return false;
 	}
-
-	public void listaVoo() {
-
+	public String motivoPendencia(){
+		return "a";
 	}
-	public void listaVooAutorizado() {
-
+	public double calculaCombstNec(){
+		return 0;
 	}
-	public void listaVooPendentes() {
-
-	}
-	public String motivoPendencia() {
-		return null;
-	}
-	public void vooMaiorCusto() {
-
-	}
-	public void qntVooCategoria() {
-
-	}
-
 }
