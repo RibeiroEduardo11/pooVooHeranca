@@ -6,7 +6,7 @@ public abstract class voo {
 	private String codigo;
 	private String destino;
 
-	public voo(String origem, double distanceKM, double combstDisp, boolean documentacaoReg, String codigo, String destino) {
+	public voo(String origem, double distanceKM, double combstDisp, boolean documentacaoReg, String codigo) {
 		this.origem = origem;
 		this.distanceKm = distanceKM;
 		this.combstDisp = combstDisp;
